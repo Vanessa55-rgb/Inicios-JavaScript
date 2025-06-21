@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mis 20 ejercicios JavaScript</title>
+    <link rel="shortcut icon"
+        href="https://static.vecteezy.com/system/resources/previews/027/127/463/non_2x/javascript-logo-javascript-icon-transparent-free-png.png"
+        type="image/x-icon">
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+
+<body>
+    <h1>📚 Mis Ejercicios de JavaScript</h1>
+    <p>Presiona  <strong>F12</strong> para abrir la consola del navegador.</p>
+    <p>Haz <strong>clic izquierdo</strong> en un botón de ejercicio para ejecutarlo.</p>
+    <p>Cuando termines, <strong>refresca la página (F5)</strong> antes de abrir otro ejercicio.</p>    
+
+    <div class="botonera">
+        <!-- Botones -->
+        <button class="btn" onclick="cargarEjercicio('ejercicio-1.js')">Ejercicio 1</button>
+        <button class="btn" onclick="cargarEjercicio('ejercicio-2.js')">Ejercicio 2</button>
+        <button class="btn" onclick="cargarEjercicio('ejercicio-3.js')">Ejercicio 3</button>
+        <button class="btn" onclick="cargarEjercicio('ejercicio-4.js')">Ejercicio 4</button>
+        <button class="btn" onclick="cargarEjercicio('ejercicio-5.js')">Ejercicio 5</button>
+        <button class="btn" onclick="cargarEjercicio('ejercicio-6.js')">Ejercicio 6</button>
+        <button class="btn" onclick="cargarEjercicio('ejercicio-7.js')">Ejercicio 7</button>
+        <button class="btn" onclick="cargarEjercicio('ejercicio-8.js')">Ejercicio 8</button>
+        <button class="btn" onclick="cargarEjercicio('ejercicio-9.js')">Ejercicio 9</button>
+        <button class="btn" onclick="cargarEjercicio('ejercicio-10.js')">Ejercicio 10</button>
+        <button class="btn" onclick="cargarEjercicio('ejercicio-11.js')">Ejercicio 11</button>
+        <button class="btn" onclick="cargarEjercicio('ejercicio-12.js')">Ejercicio 12</button>
+        <button class="btn" onclick="cargarEjercicio('ejercicio-13.js')">Ejercicio 13</button>
+        <button class="btn" onclick="cargarEjercicio('ejercicio-14.js')">Ejercicio 14</button>
+        <button class="btn" onclick="cargarEjercicio('ejercicio-15.js')">Ejercicio 15</button>
+        <button class="btn" onclick="cargarEjercicio('ejercicio-16.js')">Ejercicio 16</button>
+        <button class="btn" onclick="cargarEjercicio('ejercicio-17.js')">Ejercicio 17</button>
+        <button class="btn" onclick="cargarEjercicio('ejercicio-18.js')">Ejercicio 18</button>
+        <button class="btn" onclick="cargarEjercicio('ejercicio-19.js')">Ejercicio 19</button>
+        <button class="btn" onclick="cargarEjercicio('ejercicio-20.js')">Ejercicio 20</button>
+    </div>
+
+    <footer>
+        &copy; 2025 Ejercicios | Desarrollado por Vanessa 💙
+    </footer>
+
+    <script>
+        function cargarEjercicio(archivo) {
+            const script = document.createElement('script');
+            script.src = `js/${archivo}`;
+            document.body.appendChild(script);
+        }
+    </script>
+</body>
+</html>
