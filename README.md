@@ -25,7 +25,7 @@ El objetivo es **practicar los fundamentos de JavaScript** en el entorno del nav
 
 Puedes ver el proyecto desplegado en **GitHub Pages** aquí:
 
-👉 [Ver Demo](https://vanessa55-rgb.github.io/Entrenamiento-MOD3_SEM1/)
+👉 [Ver Demo](https://vanessa55-rgb.github.io/Inicios-JavaScript/)
 
 ## 🚀 Cómo usarlo
 
